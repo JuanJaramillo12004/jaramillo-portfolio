@@ -1,5 +1,5 @@
-import Work1 from "../../assets/native-jobs.png";
-import Work2 from "../../assets/cryptoverse.png";
+import Work1 from "../../assets/isolytics.png";
+import Work2 from "../../assets/taskeria.png";
 import Work3 from "../../assets/travel.png";
 import Work4 from "../../assets/travel.png";
 
@@ -10,7 +10,7 @@ const Menu = [
 		title: "Isolytics (Normative system)",
 		category: ["Frontend", "React"],
 		url: "https://isolytics.vercel.app/",
-		repositoryUrl: "https://github.com/AlejoBI/IT-project-1"
+		repositoryUrl: "https://github.com/JuanJaramillo12004/IT-project-1"
 	},
 	{
 		id: 2,
@@ -18,7 +18,7 @@ const Menu = [
 		title: "Taskeria (Freelance App)",
 		category: ["Frontend", "React"],
 		url: "https://proyecto-eda-2.vercel.app/",
-		repositoryUrl: "https://github.com/AlejoBI/Proyecto-EDA2?tab=readme-ov-file"
+		repositoryUrl: "https://github.com/JuanJaramillo12004/Proyecto-EDA2"
 	},
 	{
 		id: 4,

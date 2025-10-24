@@ -11,15 +11,15 @@ const Blog = () => {
             <div className="blog__container grid">
                 <div className="blog__card">
                     <div className="blog__thumb">
-                        <a href="#"><span className="blog__category">Example</span></a>
+                        <a href="#"><span className="blog__category">Blog</span></a>
                         <a href="#"><img src={Image1} alt="" className='blog__img' /></a>
                     </div>
                     <div className="blog__details">
-                        <h3 className="blog__title">Example Blog</h3>
+                        <h3 className="blog__title">First Blog</h3>
                         <div className="blog__meta">
-                            <span>09 February, 2022</span>
+                            <span>27 Agosto, 2025</span>
                             <span className="blog__dot">.</span>
-                            <span>Greg</span>
+                            <span>Juan</span>
                         </div>
                     </div>
                 </div>
