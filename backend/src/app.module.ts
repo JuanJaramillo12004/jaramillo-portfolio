@@ -8,6 +8,9 @@ import { UsersModule } from './modules/users/users.module';
 import { ProjectsModule } from './modules/projects/projects.module';
 import { TechnologiesModule } from './modules/technologies/technologies.module';
 import { UploadsModule } from './modules/uploads/uploads.module';
+import { ProfileModule } from './modules/profile/profile.module';
+import { ExperienceModule } from './modules/experience/experience.module';
+import { PublicModule } from './modules/public/public.module';
 import databaseConfig from './config/database.config';
 import cloudinaryConfig from './config/cloudinary.config';
 import jwtConfig from './config/jwt.config';
@@ -30,9 +33,12 @@ import jwtConfig from './config/jwt.config';
     }),
     AuthModule,
     UsersModule,
+    ProfileModule,
     ProjectsModule,
     TechnologiesModule,
     UploadsModule,
+    ExperienceModule,
+    PublicModule,
   ],
   controllers: [AppController],
   providers: [AppService],

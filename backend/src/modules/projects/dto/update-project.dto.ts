@@ -8,30 +8,46 @@ export class UpdateProjectDto {
 
   @IsString()
   @IsOptional()
-  description?: string;
+  slug?: string;
 
   @IsString()
   @IsOptional()
-  coverImage?: string;
+  category?: string;
 
   @IsString()
   @IsOptional()
-  repoUrl?: string;
+  short_description?: string;
 
   @IsString()
   @IsOptional()
-  demoUrl?: string;
+  long_description?: string;
+
+  @IsString()
+  @IsOptional()
+  cover_image_url?: string;
+
+  @IsString()
+  @IsOptional()
+  repo_url?: string;
+
+  @IsString()
+  @IsOptional()
+  live_url?: string;
+
+  @IsString()
+  @IsOptional()
+  start_date?: string;
+
+  @IsString()
+  @IsOptional()
+  end_date?: string;
 
   @IsBoolean()
   @IsOptional()
   featured?: boolean;
 
   @IsOptional()
-  order?: number;
-
-  @IsBoolean()
-  @IsOptional()
-  published?: boolean;
+  display_order?: number;
 
   @IsOptional()
   technologies?: Partial<Technology>[];
